@@ -5,10 +5,12 @@ function change_background() {
   let time = currentDate.getHours()
     if (time >= 20 || time < 7) {
    
- document.getElementById("mainphoto").style.backgroundImage = "url('./pictures/mainphoto.jpeg')";
+ var obj = document.getElementById("mainphoto");
+ obj.setAttribute("style", "background-image: url('./pictures/mainphoto.jpeg'); background-position: 8%; ");
   }
  else {
     document.getElementById("mainphoto").style.backgroundImage = "url('./pictures/mainphoto2.jpeg')";
+    
   } 
 }
     
