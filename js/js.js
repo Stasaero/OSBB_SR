@@ -3,7 +3,7 @@ setInterval(change_background, 1000 * 60 * 60);
 function change_background() {
   let currentDate = new Date();
   let time = currentDate.getHours()
-    if (time >= 20 || time < 13) {
+    if (time >= 20 || time < 7) {
    
  document.getElementById("mainphoto").style.backgroundImage = "url('./pictures/mainphoto.jpeg')";
   }
