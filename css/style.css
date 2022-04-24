@@ -113,13 +113,14 @@
 #mainphoto {
 	background-image:url('../pictures/mainphoto2.jpeg');
 	width: 100vw;
+  min-width: 300px;
 	height: 100vh;
-	background-repeat: no-repeat;
-	/* background-position: center;*/
+	/* background-repeat: no-repeat; */
+	background-position: 95% 75%;
 	background-size: cover;
-	position: relative;
-  object-fit: cover;
-  object-position: 100% 0;
+	/* position: relative; */
+  /* object-fit: cover;
+  object-position: 50% 100%; */
   
 } 
 #entrance {
