@@ -111,7 +111,7 @@
 	height: auto;
 }
 #mainphoto {
-	background-image:url('../pictures/mainphoto2.jpeg');
+	background-image:url('/pictures/mainphoto2.jpeg');
 	width: 100vw;
 	height: 100vh;
 	background-repeat: no-repeat;
@@ -121,7 +121,7 @@
   
 } 
 #entrance {
-	background-image:url('../pictures/entrance.jpeg');
+	background-image:url('/pictures/entrance.jpeg');
 	width: 100vw;
 	height: 100vh;
 	background-repeat: no-repeat;
