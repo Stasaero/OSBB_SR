@@ -18,8 +18,16 @@ function change_background() {
 
 
 
-  
- 
- 
- 
+function darknav() {
+  let currentDate = new Date();
+  let time = currentDate.getHours()
+    if (time >= 20 || time < 7) {
+document.body.innerHTML = document.body.innerHTML.replace('bg-light', 'bg-dark');
+document.body.innerHTML = document.body.innerHTML.replace('navbar-light', 'navbar-dark');
+}
+else {
+   
+   
+ } 
+}
 
