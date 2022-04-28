@@ -5,7 +5,7 @@ function change_background() {
   let time = currentDate.getHours()
     if (time >= 20 || time < 7) {
       var obj = document.getElementById("mainphoto");
-      obj.setAttribute("style", "background-image: url('./pictures/mainphoto.jpeg'); background-position: 8%; ");
+      obj.setAttribute("style", "background-image: url('./pictures/mainphoto.jpeg'); background-position: 8% 1%; ");
       document.body.innerHTML = document.body.innerHTML.replace('bg-light', 'bg-dark');
       document.body.innerHTML = document.body.innerHTML.replace('navbar-light', 'navbar-dark');
       
