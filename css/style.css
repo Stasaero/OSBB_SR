@@ -134,7 +134,31 @@
 
 /* contacts style */
 
-#entrance {
+.grid-item-contacts {
+  background-color: #F8F9FA;
+  /* color: white; */
+  border-radius: 5px;
+  padding: 5rem;
+  height: 5rem;
+  align-content: space-between;
+  justify-content: space-around;
+}
+.section-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+}
+.phoneimg {
+  width:5%;
+  height:5%;
+  padding-right:1%;
+}
+.tel {
+  font-size:5vw;
+} 
+
+/* #entrance {
 	background-image:url('../pictures/entrance.jpeg');
 	width: 100vw;
 	height: 100vh;
@@ -142,18 +166,14 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
-  /* opacity: 50%; */
-  
-  
-} 
-#tel {
+} */
+  /* opacity: 50%; */ 
+/* #tel {
   font-size:10vw;
   color:white;
   text-align: center;
   
   padding-top: 8%;
-  
-
 }
 
 
@@ -192,13 +212,12 @@
   
 }
 
-/* @media screen and (max-width: 576px) { */
-  .pdfimg {
+.pdfimg {
     width:11%;
     height:11%;
     padding-right:1%;
-  }
-/* } */
+}
+
 
 /* unvisited link */
 a:link {
