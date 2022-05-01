@@ -30,10 +30,14 @@ else {
  } 
 }
 
-function backgroundcolor () {
+
+
+function backgroundcolor (a,b) {
   let currentDate = new Date();
   let time = currentDate.getHours()
     if (time >= 20 || time < 7) {
-document.getElementById("docs_body").style.backgroundColor = "#495057"; 
+document.getElementById(a).style.backgroundColor = b; 
 }
 }
+
+// #495057
