@@ -140,20 +140,20 @@
   /* color: white; */
   border-radius: 5px;
   padding: 1rem;
-  height: 5rem;
-  align-content: center;
+  height: 10rem;
+  align-content: space-between;
   justify-content: space-around;
 }
 .section-contacts {
-  display: flex ;
-  justify-content: left;
-  align-items: left;   
+  text-align: center;
+  justify-content: center;
+  align-items: center;   
 }
 
 .addressimg {
   width:10%;
   height:10%;
-  padding:2%;
+  /* padding:2%; */
 }
 
 
